@@ -5,7 +5,7 @@ const Scrolltop = (props) => {
   const [showBtn, setShowBtn] = React.useState(false);
 
   const handleScroll = () => {
-    if (window.pageYOffset > 400) {
+    if (window.pageYOffset > 80) {
       setShowBtn(true);
     } else {
       setShowBtn(false);
