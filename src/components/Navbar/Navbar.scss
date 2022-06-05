@@ -1,0 +1,21 @@
+.rnavbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.rnavbar-item {
+  margin: 8px;
+  padding: 8px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.rnavbar-item:hover {
+  border-bottom: 2px solid #000;
+}
+
+.toggle-btn {
+  position: fixed;
+  right: 16px;
+  bottom: 8px;
+}
